@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(212, 45%, 89%);
+    font-size: 15px;
+}
+
+.container{
+    max-width: 360px;
+    background-color: white;
+    margin: 0 auto;
+    border-radius: 10px;
+    
+    
+}
+.card{
+    
+    padding: 18px;
+    margin-top: 50%;
+}
+.card img{
+    width: 100%; /* This makes the img 100% of the parent*/
+    border-radius: 10px;
+ }
+
+ .card h2{
+    text-align: center;
+    padding-top: 18px;
+ }
+ .card p{
+    text-align: center;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    font-size: 15px;
+ }
