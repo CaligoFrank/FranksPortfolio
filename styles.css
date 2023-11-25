@@ -1,0 +1,81 @@
+body{
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+}
+.parallax-container {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+    /*  this is where the magic happens:  */
+    background-attachment: fixed;
+  
+    background-image: url(pexels-joyston-judah-933054.jpg);
+    background-position: center;
+    background-size: cover;
+    color: var(--color);
+    row-gap: 4rem;
+  
+    text-align: center;
+  }
+
+
+
+  .navbar ul li{
+    text-decoration: none;
+    display: inline;
+    float: left;
+    font-family: 'Outfit',sans-serif;
+    font-size: 20px;
+    
+    
+
+  }
+  .navbar ul li a{
+    display: block;
+    padding: 8px;
+    
+    color: #183D3D;
+    text-decoration: none;
+
+
+  }
+  .navbar{
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  .navbar ul{
+    background-color: #93B1A6;
+  }
+
+
+  .maincontent h2{
+    font-family: 'Outfit',sans-serif;
+    font-size: 50px;
+  }
+  .maincontent p{
+    font-family: 'Outfit',sans-serif;
+    font-size: 25px;
+  }
+  .gallery{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+  .gallery img{
+    width: 100%;
+    max-width: 350px;
+    height: 300px;
+    object-fit: cover;
+    flex-wrap: wrap;
+    border-radius: 20px;
+  }
+  
