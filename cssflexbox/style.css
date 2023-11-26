@@ -28,6 +28,8 @@ header{
     gap: 16px;
     max-width: 1400px;
     margin: 0 auto;
+    margin-top: 45px;
+    margin-bottom: 50px;
     
 }
 .container img{
