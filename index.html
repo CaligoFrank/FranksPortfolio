@@ -10,13 +10,14 @@
 <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Outfit:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="parallax-container">
+    <div class="parallax-container section1">
         <div class="container">
             <div class="navbar">
                 <ul>
-                    <li><a href="">HOME</a></li>
-                    <li><a href="">Downloads</a></li>
-                    <li><a href="">Contact</a></li>
+                    <li><a href="#" onclick="scrollToSection('section1')">HOME</a></li>
+                    <li><a href="#" onclick="scrollToSection('section2')">CERTIFICATIONS</a></li>
+                    <li><a href="#" onclick="scrollToSection('section3')">DOWNLOADS</a></li>
+                    <li><a href="#" onclick="scrollToSection('section4')">CONTACT</a></li>
                 </ul>
             </div>
             <div class="maincontent">
@@ -34,7 +35,23 @@
         </div>
     </div>
     <div class="parallax-container">
-
+        <section id="section2" class="maincontent">
+            <h2>Certifications Earned</h2>
+            <div class="gallery">
+                <a href="https://coursera.org/verify/K97ECYNW86PB"><img src="./imgs/MetaCert.png" alt="meta-cert"></a>
+                <a href=" https://coursera.org/verify/KAX5R4VQ9SLA"><img src="./imgs/pythoncert.png" alt="python-cert"></a>
+                <a href="https://coursera.org/verify/JG7JFVXM7WW8"><img src="./imgs/learntoLearncert.png" alt="learn-cert"></a>
+            </div>
+        </section>
     </div>
+    <div class="parallax-container">
+        <section id="section3" class="maincontent">
+            <h2>Download My Resume!</h2>
+            <div class="gallery">
+                <a href="https://profile.indeed.com/p/franku-74zt4la"><img src="./imgs/resume.png" alt="resume"></a>
+            </div>
+        </section>
+    </div>
+    <script src="./app.js"></script>
 </body>
 </html>
